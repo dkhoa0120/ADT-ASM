@@ -30,7 +30,7 @@ public class Main {
                 }
             }
             
-            else if (r<11){
+            else if (r<17){
                 if(!queue.isEmpty() && !stack.isFull()) {
                     String s = queue.deQueue();
                     stack.push(s);
