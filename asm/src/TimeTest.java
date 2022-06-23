@@ -1,7 +1,7 @@
 public class TimeTest {
     public static void main(String[] args){
-        MyQueue q = new MyQueue(10);
-        MyStack s = new MyStack(10);
+        Queue q = new Queue(10);
+        Stack s = new Stack(10);
         String message = "hello";
         
         

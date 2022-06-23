@@ -1,10 +1,10 @@
 
-public class MyQueue {
+public class Queue {
 
     protected String messageContent[];
     protected int size;
     //constructor
-    public MyQueue(int size)
+    public Queue(int size)
     {
         this.messageContent = new String[size];
     }

@@ -1,7 +1,7 @@
-public class MyStack {     
+public class Stack {     
     public String messageContent[];
     public int size;
-    public MyStack(int size) {
+    public Stack(int size) {
         this.messageContent = new String[size]; 
     }
     //check if the stack empty or not
